@@ -11,7 +11,7 @@ author: "Zaksen"
 main: "mindustria.MindustriaMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "A mod about science in Mindustry!"
 
 #the mod version
 version: 0.1

@@ -16,10 +16,11 @@ public class MindustriaMod extends Mod{
             //show dialog upon startup
             Time.runTask(10f, () -> {
                 BaseDialog dialog = new BaseDialog("Welcome to mindustria!");
-                dialog.cont.add("behold").row();
-                //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
-                dialog.cont.image(Core.atlas.find("mindustria-frog")).pad(20f).row();
-                dialog.cont.button("I see", dialog::hide).size(100f, 50f);
+                dialog.cont.add("Thank you for downloading mindustria!").row();
+                dialog.cont.add("This is alpha version of mindustria. Good luck!").row();
+//                mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
+//                dialog.cont.image(Core.atlas.find("mindustria-frog")).pad(20f).row();
+                dialog.cont.button("Ok", dialog::hide).size(100f, 50f);
                 dialog.show();
             });
         });
