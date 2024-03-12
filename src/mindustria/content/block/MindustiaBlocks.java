@@ -1,13 +1,18 @@
 package mindustria.content.block;
 
-import mindustry.world.Block;
-import mindustry.world.blocks.defense.turrets.Turret;
+import mindustria.content.block.defence.MindustriaDefenceBlocks;
+import mindustria.content.block.enviroment.MindustriaEnvironmentBlocks;
+import mindustria.content.block.production.MindustriaProductionBlocks;
 
-public final class MindustiaBlocks {
+public class MindustiaBlocks {
 
-    public static Block test;
+    private MindustiaBlocks() {
+        // Ignore
+    }
 
     public static void init() {
-        test = new Turret("Test");
+        MindustriaDefenceBlocks.init();
+        MindustriaEnvironmentBlocks.init();
+        MindustriaProductionBlocks.init();
     }
 }

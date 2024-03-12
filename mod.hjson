@@ -8,7 +8,7 @@ name: "mindustria"
 author: "Zaksen"
 
 #the fully qualified main class of the mod
-main: "mindustria.MindustriaMod"
+main: "mindustria.Mindustria"
 
 #the mod description as seen in the mod dialog
 description: "A mod about science in Mindustry!"
